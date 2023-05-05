@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="shortcut icon" href="calculadora.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="area">
+        <h1>Calculadora de IMC</h1>
+        <h3>Insira as informações abaixo:</h3>
+
+        <label for="pesokg">Peso</label>
+        <input type="number" name="pesokg" id="pesokg" placeholder="Ex: 75"><br>
+
+        <label for="alturam">Altura</label>
+        <input type="number" name="alturam" id="alturam" placeholder="Ex: 1,77"><br>
+
+        <input class="ui-btn" id="botao" type="button" value="Calcular" onclick="calcular()">
+
+        <div id="res"></div>
+
+    </section>
+
+    <script src="index.js"></script>
+
+</body>
+
+</html>
